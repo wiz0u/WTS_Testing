@@ -2,24 +2,25 @@
 
 WTelegramServer a Telegram Server written in C#
 
-You can now participate in testing a running sample WTelegramServer instance  
+You can now participate in testing the sample WTelegramServer instance  
+→ Start with downloading archive [WTS_Testing.zip](https://tglink-as.azurewebsites.net/WTS_Testing.zip)  
 Three methods are available:
 1. The fast way (Windows):
-   - Download [Telegram_WTS.exe](Telegram_WTS.exe) _(This is the official Telegram Desktop 6.3.1 for Windows, already patched using the methods below)_
-   - Place this patched executable file in a new empty folder, and simply run it to start connecting to the WTelegramServer instance
+   - Extract `Telegram_WTS.exe` from the archive into a new empty folder _(This is the official Telegram Desktop 6.3.1 for Windows, already patched using the methods below)_
+   - Run `Telegram_WTS.exe` to start connecting to the WTelegramServer instance
    - Click "Start Messaging", then click SETTINGS in the upper-right corner
    - Disable checkboxes "Show tray icon" and "Update automatically" to prevent annoying behaviors
    - Close the Settings and click on "log in using your phone number"
    - Enter a random phone number (doesn't need to be real)
    - Enter a random verification code, and voila!
 2. Using the Patcher (Windows):
-   - Download [Patcher.zip](Patcher.zip) and extract it in a directory _(contains a patcher project, binary and C# source, so you can check what it does)_
-   - Place a copy of your Telegram Desktop Telegram.exe in the directory, and run the Patcher
+   - Extract the archive _(except Telegram_WTS.exe)_ into an empty directory. It contains a patcher project, binary and C# source, so you can check what it does
+   - Place a copy of your Telegram Desktop `Telegram.exe` in the directory, and run the Patcher
    - When prompted for the IP address of the server instance, type: `34.73.170.46`
    - The Patcher should now create a Telegram_WTS.exe, copy of your Telegram.exe patched with the public key and IP address of the server instance, and disable auto-updates
    - Follow method 1 recommendations for running the program
    
-   _Note: The patcher might work with other Telegram clients but was only tested with Telegram Desktop 6.3.1.  
+   _Note: The patcher might work with other Telegram clients but was only tested with Telegram Desktop versions around 6.3.1.  
      WTelegramServer is only compatible with Telegram API layer 218, so it might not be compatible with other versions of Telegram Desktop_
 3. Patching a client manually (sources or binary)
    - Identify where the official public encryption key of Telegram is located:
