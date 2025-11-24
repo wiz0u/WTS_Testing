@@ -24,23 +24,23 @@ Three methods are available:
      WTelegramServer is only compatible with Telegram API layer 218, so it might not be compatible with other versions of Telegram Desktop_
 3. Patching a client manually (sources or binary)
    - Identify where the official public encryption key of Telegram is located:
-      ```
-      MIIBCgKCAQEA6LszBcC1LGzyr992NzE0ieY+BSaOW622Aa9Bd4ZHLl+TuFQ4lo4g
-      5nKaMBwK/BIb9xUfg0Q29/2mgIR6Zr9krM7HjuIcCzFvDtr+L0GQjae9H0pRB2OO
-      62cECs5HKhT5DZ98K33vmWiLowc621dQuwKWSQKjWf50XYFw42h21P2KXUGyp2y/
-      +aEyZ+uVgLLQbRA1dEjSDZ2iGRy12Mk5gpYc397aYp438fsJoHIgJ2lgMv5h7WY9
-      t6N/byY9Nw9p21Og3AoXSL2q/2IJ1WRUhebgAdGVMlV1fkuOQoEzR7EdpqtQD9Cs
-      5+bfo3Nhmcyvk5ftB0WkJ9z6bNZ7yxrP8wIDAQAB
-      ```
+```
+MIIBCgKCAQEA6LszBcC1LGzyr992NzE0ieY+BSaOW622Aa9Bd4ZHLl+TuFQ4lo4g
+5nKaMBwK/BIb9xUfg0Q29/2mgIR6Zr9krM7HjuIcCzFvDtr+L0GQjae9H0pRB2OO
+62cECs5HKhT5DZ98K33vmWiLowc621dQuwKWSQKjWf50XYFw42h21P2KXUGyp2y/
++aEyZ+uVgLLQbRA1dEjSDZ2iGRy12Mk5gpYc397aYp438fsJoHIgJ2lgMv5h7WY9
+t6N/byY9Nw9p21Og3AoXSL2q/2IJ1WRUhebgAdGVMlV1fkuOQoEzR7EdpqtQD9Cs
+5+bfo3Nhmcyvk5ftB0WkJ9z6bNZ7yxrP8wIDAQAB
+```
    - Patch/Replace it with the public key for the sample WTelegramServer instance:
-      ```
-      MIIBCgKCAQEAmu0N3BJAPxhRclG3NFkuC4qBkZiUVJF3bF2NPYegO7BKNGxGjvsM
-      UJYofrhSLwsK+2fbyKpHaZg9Dc7IolmOdNhXDje+u8axlkv/onxj6hnMiBQTgkM7
-      xB7Pkk5n/d7/3umFbepHSCGRUbxbg5m72OpWNdS6Lid+Om3XoMIsyWL7fzBXzann
-      JdfA01SHqewHOT5q8LKgvhDapmv4YE/H3zZpSwdJrBAlT0oiDpLWPIk3Oig+bktb
-      pkTJER6gy4/yVs/Ko1zPS8xqs0bBrIxXTP0xwSfGr2g9jmKxR9uZ4aXBVRktOc3+
-      kxxAWMjold3FNny4ZyDQtiES/fAQnhO+xwIDAQAB
-      ```
+```
+MIIBCgKCAQEAmu0N3BJAPxhRclG3NFkuC4qBkZiUVJF3bF2NPYegO7BKNGxGjvsM
+UJYofrhSLwsK+2fbyKpHaZg9Dc7IolmOdNhXDje+u8axlkv/onxj6hnMiBQTgkM7
+xB7Pkk5n/d7/3umFbepHSCGRUbxbg5m72OpWNdS6Lid+Om3XoMIsyWL7fzBXzann
+JdfA01SHqewHOT5q8LKgvhDapmv4YE/H3zZpSwdJrBAlT0oiDpLWPIk3Oig+bktb
+pkTJER6gy4/yVs/Ko1zPS8xqs0bBrIxXTP0xwSfGr2g9jmKxR9uZ4aXBVRktOc3+
+kxxAWMjold3FNny4ZyDQtiES/fAQnhO+xwIDAQAB
+```
    - Identify where the public IP addresses of official Telegram servers are located:  
       ```
       "149.154.175.50", "149.154.167.51", "95.161.76.100", "149.154.175.100", "149.154.167.91",
