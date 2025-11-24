@@ -11,7 +11,7 @@ Three methods are available:
    - Click "Start Messaging", then click SETTINGS in the upper-right corner
    - Disable checkboxes "Show tray icon" and "Update automatically" to prevent annoying behaviors
    - Close the Settings and click on "log in using your phone number"
-   - Enter a random phone number (doesn't need to be real)
+   - Enter a random phone number (doesn't need to be real but at least 5 digits)
    - Enter 4 random digits code (if the phone number is not already taken), and voila!
 2. Using the Patcher (Windows):
    - Extract the archive _(except Telegram_WTS.exe)_ into an empty directory. It contains a patcher project, binary and C# source, so you can check what it does
