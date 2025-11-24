@@ -12,7 +12,7 @@ Three methods are available:
    - Disable checkboxes "Show tray icon" and "Update automatically" to prevent annoying behaviors
    - Close the Settings and click on "log in using your phone number"
    - Enter a random phone number (doesn't need to be real)
-   - Enter a random verification code, and voila!
+   - Enter 4 random digits code (if the phone number is not already taken), and voila!
 2. Using the Patcher (Windows):
    - Extract the archive _(except Telegram_WTS.exe)_ into an empty directory. It contains a patcher project, binary and C# source, so you can check what it does
    - Place a copy of your Telegram Desktop `Telegram.exe` in the directory, and run the Patcher
@@ -51,7 +51,7 @@ Three methods are available:
    - Follow method 1 recommendations for running the program
    
 ## What is supported?
-- SignIn/SignUp - Any verification code accepted for now
+- SignIn/SignUp (with fake 4-digit SMS, or real 5-digit App code)
 - Search box for public users
 - Creating basic groups
 - Sending messages in private, saved messages & basic groups
@@ -83,7 +83,7 @@ _(from scratch, except stuff reused from my open-source WTelegramClient library)
 
 ## What is not (yet) supported?
 - Supergroups, Channels
-- Login via QR-Code, sending verification code to existing app sessions
+- Login via QR-Code
 - Enforcement of most Privacy Rules (but the logic is ready)
 - Stories, Stars, Invoice/Payments, Giveaway, Monoforums
 - Replying from another chat
