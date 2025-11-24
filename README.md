@@ -39,7 +39,7 @@ Three methods are available:
       xB7Pkk5n/d7/3umFbepHSCGRUbxbg5m72OpWNdS6Lid+Om3XoMIsyWL7fzBXzann
       JdfA01SHqewHOT5q8LKgvhDapmv4YE/H3zZpSwdJrBAlT0oiDpLWPIk3Oig+bktb
       pkTJER6gy4/yVs/Ko1zPS8xqs0bBrIxXTP0xwSfGr2g9jmKxR9uZ4aXBVRktOc3+
-      kxxAWMjold3FNny4ZyDQtiES/fAQnhO+xwIDAQAB"
+      kxxAWMjold3FNny4ZyDQtiES/fAQnhO+xwIDAQAB
       ```
    - Identify where the public IP addresses of official Telegram servers are located:  
       ```
