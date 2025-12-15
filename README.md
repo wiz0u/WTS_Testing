@@ -1,6 +1,6 @@
 # WTelegramServer
 
-WTelegramServer a Telegram Server written in C#
+WTelegramServer is a Telegram Server written in C#
 
 You can now participate in testing the sample WTelegramServer instance  
 → Start with downloading archive [WTS_Testing.zip](https://tglink-as.azurewebsites.net/WTS_Testing.zip)  
@@ -81,10 +81,18 @@ kxxAWMjold3FNny4ZyDQtiES/fAQnhO+xwIDAQAB
 Developing a server with all above features was achieved in just one month!!  
 _(from scratch, except stuff reused from my open-source WTelegramClient library)_
 
+- Send verification code to existing session if phone number already registered
+- Forwards with drop author
+- Suggest stickers on emoji
+- Leaving group, deleting groups
+- Kick/Add user in group (with optional history)
+- Invite links
+- Chat notifications settings (mute/unmute)
+
 ## What is not (yet) supported?
 - Supergroups, Channels
 - Login via QR-Code
-- Enforcement of most Privacy Rules (but the logic is ready)
+- Enforcement of most personal Privacy Rules (but the logic is ready)
 - Stories, Stars, Invoice/Payments, Giveaway, Monoforums
 - Replying from another chat
 - Reactions
